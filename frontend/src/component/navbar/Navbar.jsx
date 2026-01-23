@@ -25,7 +25,7 @@ const Navbar = () => {
                 <a href="#">Login</a>
             </div>
         </div>
-        <div className='flex justify-between  w-full items-center h-20 p-10  border-b rounded-2xl ' >
+        <div className='flex justify-between  w-full items-center h-20 p-10  bg-nav rounded-2xl ' >
             <div > 
                 <img src="https://schoolmanage.techsima.in/images/logo-Recovered.png" alt="" className='h-14 cursor-pointer'/>
             </div>

@@ -11,6 +11,7 @@ export default {
         secondary: "#f97316",
         black: "#000000",
         white: "#ffffff",
+        nav:"#edf4ff"
       },
     },
   },
