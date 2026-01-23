@@ -25,9 +25,9 @@ const Navbar = () => {
                 <a href="#">Login</a>
             </div>
         </div>
-        <div className='flex justify-between  w-full items-center h-20 p-10  bg-nav rounded-2xl ' >
+        <div className='flex justify-between   w-full items-center h-25 p-10  bg-nav rounded-2xl ' >
             <div > 
-                <img src="https://schoolmanage.techsima.in/images/logo-Recovered.png" alt="" className='h-14 cursor-pointer'/>
+                <img src="https://schoolmanage.techsima.in/images/logo-Recovered.png" alt="" className=' pl-10 h-20 cursor-pointer'/>
             </div>
             <div className='pr-10'>
                 <ul className='flex gap-10 cursor-pointer'>

@@ -13,7 +13,7 @@ const Hero = () => {
           />
         </div>
         <div className="absolute top-15  left-20 w-180 p-15" >
-          <h3 className="text-2xl text-red-500 font-semibold">Technology & It Solutions</h3>
+          <h3 className="text-2xl text-red-500 font-semibold italic ">Technology & It Solutions</h3>
           <h1 className="text-6xl pt-5 pb-5">Excellent IT services for your success</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ex laborum
