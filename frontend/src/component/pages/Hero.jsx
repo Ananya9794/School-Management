@@ -4,7 +4,7 @@ import { FaPlay } from "react-icons/fa";
 const Hero = () => {
   return (
     <>
-      <div className="relative">
+      <div className="relative ">
         <div className="bg-purple-200 ">
           <img
             className="h-130 w-full"
@@ -12,7 +12,7 @@ const Hero = () => {
             alt="hero img"
           />
         </div>
-        <div className="absolute top-15  left-20 w-180 p-15" >
+        <div className="absolute top-15  left-20 w-180 p-15 " >
           <h3 className="text-2xl text-red-500 font-semibold italic ">Technology & It Solutions</h3>
           <h1 className="text-6xl pt-5 pb-5">Excellent IT services for your success</h1>
           <p>

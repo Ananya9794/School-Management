@@ -10,9 +10,9 @@ import { FaYoutube } from "react-icons/fa";
 const Navbar = () => {
   return (
     <>
-        <div className='flex justify-between p-4 pl-10 bg-amber-100 '>
+        <div className='flex justify-between p-4 pl-10 bg-black  h-10 items-center'>
             <div>
-                <ul className='flex gap-10 cursor-pointer'>
+                <ul className='flex gap-3 cursor-pointer text-white'>
                     <li><FaPhoneAlt /></li>
                     <li><FaInstagram /></li>
                     <li><FaGoogle /></li>
@@ -21,8 +21,8 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className='flex gap-10 pr-10  '>
-                <a href="#">Student Register</a>
-                <a href="#">Login</a>
+                <a href="#" className='h-6 bg-red-400 text-white '>Student Register</a>
+                <a href="#" className='h-6 bg-red-400 text-white'> Student Login</a>
             </div>
         </div>
         <div className='flex justify-between   w-full items-center h-25 p-10  bg-nav rounded-2xl ' >
