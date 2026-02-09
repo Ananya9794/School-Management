@@ -1,13 +1,31 @@
 import './App.css'
-import Navbar from './component/navbar/navbar'
-import Hero from './component/pages/Hero'
+import Navbar from './component/common/navbar/Navbar'
+import Footer from './component/common/footer/Fotter'
+import { BrowserRouter , Routes , Route } from 'react-router-dom'
+import Location from './component/location/Location'
+import HeroPage from './pages/hero/HeroPage'
+import AboutPage from './pages/about/AboutPage'
+import GalleryPage from './pages/gallery/GalleryPage'
+import FacilitiesPage from './pages/facilities/FacilitiesPage'
+import ContactPage from './pages/contact/Contact'
 
 function App() {
   return (
-    <>
-      <Navbar />
-      <Hero />
-     {/* <h1 className='bg-primary h-10 text-white w-80 mx-auto'>School Management</h1> */}
+    <>   
+     <BrowserRouter>
+     <Navbar />
+     <Routes>
+        <Route path="/" element={<HeroPage />} />
+        <Route path="/about" element={<AboutPage />} />
+        {/* <Route path="/contact" element={<Contact />} /> */}
+        <Route path="/gallery" element={<GalleryPage />} />
+        <Route path="/facilities" element={<FacilitiesPage />} />
+        <Route path="/location" element={<Location />} />
+        <Route path="/contact" element={<ContactPage />} />
+
+      </Routes>
+      <Footer/>
+    </BrowserRouter>
     </>
   )
 }
