@@ -8,8 +8,18 @@ import AboutPage from './pages/about/AboutPage'
 import GalleryPage from './pages/gallery/GalleryPage'
 import FacilitiesPage from './pages/facilities/FacilitiesPage'
 import ContactPage from './pages/contact/Contact'
+import 'aos/dist/aos.css'
+import Aos from 'aos'
+import { useEffect } from 'react'
 
 function App() {
+  useEffect(()=>{
+      Aos.init({
+        duration:1000,
+        easing: 'ease-in-out'
+      });
+
+  },[])
   return (
     <>   
      <BrowserRouter>
